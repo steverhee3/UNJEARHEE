@@ -21,7 +21,7 @@ window.dispatchEvent(new Event('resize'));
 
 //// Setup
 
-camera.position.set(-0.3, 0.1, 1);
+camera.position.set(-0.3, 0.1, 1.5);
 scene.add(new $.AmbientLight('white', 0.1));
 const light0 = new $.DirectionalLight('white', 1);
 light0.position.set(1, 2, 3);
